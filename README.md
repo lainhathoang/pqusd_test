@@ -34,11 +34,11 @@ This repository contains a simple backend API built with NodeJS and a frontend i
    - **Returns**: Transaction hash (TX).
 
 ### .env Variables
-
+(We sent the `.env` testing file to you. Please place it only into the BE folder.)
 - `TREASURY_WALLET`: The treasury wallet account used for interacting with the API (hardcoded).
 - `PRIVATE_KEY`: Private key for the treasury wallet account (for signing transactions).
 
-## Frontend
+## Frontend Overview
 
 The frontend is built using ReactJS and provides an interface for interacting with the backend API.
 
@@ -49,3 +49,8 @@ The frontend is built using ReactJS and provides an interface for interacting wi
 3. **Mint USDC**: Users can mint a specific amount of USDC to the newly created wallet.
 4. **Collect USDC**: Transfer all USDC from the newly created wallet to the treasury wallet.
 5. **Burn USDC**: Burn a specified amount of USDC from the treasury wallet.
+
+## Start project
+0. Put the `.env` file into the BE folder.
+1. Backend: `yarn dev`.
+2. Frontend: `yarn dev`.
